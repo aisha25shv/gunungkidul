@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gunung Kidul</title>
+        <!-- normalize css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- utilities css -->
+        <link rel = "stylesheet" href = "css/utilities.css">
+        <!-- main css -->
+        <link rel = "stylesheet" href = "css/main.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class = "navbar bg-tosca flex">
+            <div class = "container flex">
+                <div class = "sidenav bg-tosca text-white flex">
+                    <button type = "button" class = "btn navbar-show-btn text-white">
+                        <i class = "fas fa-bars"></i>
+                    </button>
+                    <div class = "sidenav-list">
+                        <span>Gunung Kidul</span>
+                        <button type = "button" class = "btn sidenav-toggler-btn text-white"></button>
+                    </div>
+
+                    <!-- side navbar -->
+                    <ul id = "side-navbar" class = "bg-white text-uppercase">
+                        <button type = "button" class = "btn navbar-hide-btn text-dark">
+                            <i class = "fas fa-times"></i>
+                        </button>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Activity</a></li>
+                        <li><a href="#">Facilities</a></li>
+                    </ul>
+                </div>
+
+                <!-- navigation list -->
+                <div class = "navbar-collapse flex">
+                    <ul class = "navbar-nav text-uppercase">
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link active-link">
+                                <span class = "nav-link-text">home</span>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">
+                                <span class = "nav-link-text">explore</span>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">
+                                <span class = "nav-link-text">activity</span>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">
+                                <span class = "nav-link-text">facilities</span>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">
+                                <span class = "nav-link-text">about</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end of navigation list -->
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- header -->
+        <header class = "header flex" id = "home">
+            <div class = "container">
+                <div class = "header-content">
+                    <div class = "header-left">
+                        <h1>Welcome to Gunung Kidul</h1>
+                        <p class = "text">Selamat datang di destinasi yang memukau ini! Gunung Kidul adalah surga tersembunyi di Yogyakarta, menawarkan keindahan alam, pantai berpasir putih, goa-goa menakjubkan, dan petualangan tak terlupakan. Temukan keajaiban alam dan budaya yang khas di sini.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main content -->
+        <main>
+            <!-- explore section -->
+            <section id = "explore" class = "explore pad bg-light-grey-color-shade">
+                <div class = "container">
+                    <div class = "section-title text-center">
+                        <h2>Explore</h2>
+                        <p class = "lead">Jelajahi destinasi wisata alam yang ada di Gunung Kidul!</p>
+                    </div>
+
+                    <div class = "explore-content grid">
+                        <div class = "explore-item">
+                            <div class = "image">
+                                <img src = "images/mesra.jpeg" alt = "">
+                            </div>
+                            <div class = "info">
+                                <p class = "name">Pantai Mesra</p>
+                            </div>
+                        </div>
+
+                        <div class = "explore-item">
+                            <div class = "image">
+                                <img src = "images/hehasky.jpeg" alt = "">
+                            </div>
+                            <div class = "info">
+                                <p class = "name">Heha Sky</p>
+                            </div>
+                        </div>
+
+                        <div class = "explore-item">
+                            <div class = "image">
+                                <img src = "images/bukitbintang.jpeg" alt = "">
+                            </div>
+                            <div class = "info">
+                                <p class = "name">Bukit Bintang</p>
+                            </div>
+                        </div>
+
+                        <div class = "explore-item">
+                            <div class = "image">
+                                <img src = "images/cafeslili.jpeg" alt = "">
+                            </div>
+                            <div class = "info">
+                                <p class = "name">Cafe De Slili</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of explore section -->
+
+            <!-- activity section -->
+            <section class = "activity pad bg-light-tosca" id = "activity">
+                <div class = "container">
+                    <div class = "section-title text-center">
+                        <h2>Activity</h2>
+                        <p class = "lead">Lakukan aktivitas seru dan menyenangkan di Gunung Kidul!</p>
+                    </div>
+
+                    <div class = "activity-content grid">
+                        <div class = "activity-item">
+                            <img src = "images/camping.jpeg">
+                            <div class = "activity-badge bg-white text-dark flex">Camping</div>
+                        </div>
+                        <div class = "activity-item">
+                            <img src = "images/hiking.jpg">
+                            <div class = "activity-badge bg-white text-dark flex">Hiking</div>
+                        </div>
+                        <div class = "activity-item">
+                            <img src = "images/snorkling.jpeg">
+                            <div class = "activity-badge bg-white text-dark flex">Snorkling</div>
+                        </div>
+                        <div class = "activity-item">
+                            <img src = "images/sunset.jpg">
+                            <div class = "activity-badge bg-white text-dark flex">Sunset</div>
+                        </div>
+                        <div class = "activity-item">
+                            <img src = "images/amarilis.jpg">
+                            <div class = "activity-badge bg-white text-dark flex">Flower Garden</div>
+                        </div>
+                        <div class = "activity-item">
+                            <img src = "images/cavetubing.jpeg">
+                            <div class = "activity-badge bg-white text-dark flex">Cave Tubing</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of activity section -->
+
+            <!-- facilities section -->
+            <section class = "facilities pad bg-light-grey-color-shade" id = "facilities">
+                <div class = "container">
+                    <div class = "section-title text-center">
+                        <h2>Facilities</h2>
+                        <p class = "lead">Temukan fasilitas terbaik untuk pengalaman liburan yang menyenangkan!</p>
+                    </div>
+
+                    <div class = "facilities-content grid">
+                        <div class = "facilities-item">
+                            <div class = "image">
+                                <img src = "images/teraskaca.jpeg">
+                            </div>
+                            <div class = "info bg-white">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                </div>
+                                <p class = "name">Teras Kaca</p>
+                                <div class = "price">
+                                    <span>Rp 9.500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "facilities-item">
+                            <div class = "image">
+                                <img src = "images/airballoon.jpeg">
+                            </div>
+                            <div class = "info bg-white">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                </div>
+                                <p class = "name">Sky Balloon</p>
+                                <div class = "price">
+                                    <span>Rp 20.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "facilities-item">
+                            <div class = "image">
+                                <img src = "images/casacoco.png">
+                            </div>
+                            <div class = "info bg-white">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                </div>
+                                <p class = "name">Casa Coco Resort</p>
+                                <div class = "price">
+                                    <span>Rp 405.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "facilities-item">
+                            <div class = "image">
+                                <img src = "images/hehaglamping.jpg">
+                            </div>
+                            <div class = "info bg-white">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-tosca"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                </div>
+                                <p class = "name">Heha Ocean Glamping</p>
+                                <div class = "price">
+                                    <span>Rp 1.078.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of facility section -->
+        </main>
+        <!-- end of main content -->
+
+        <!-- footer -->
+        <footer class = "footer bg-light-tosca" id = "footer">
+            <div class = "footer-end bg-dark">
+                <div class = "container grid">
+                    <p class = "text text-white text-center">Gunung Kidul</p>
+                    <div class = "flex social">
+                        <img src = "images/instagram.png">
+                        <img src = "images/twitter.png">
+                        <img src = "images/googleplus.png">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+    </body>
+</html>
